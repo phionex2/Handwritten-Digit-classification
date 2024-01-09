@@ -1,3 +1,4 @@
+
 # Handwritten-Digit-classification
 <h2>Upload the mnist dataset</h2>
 <p>You can upload mnist dataset directly fron keras by using <b> keras.datasets.mnist.load_data()</b></p>
@@ -7,4 +8,4 @@
 <p>ACCURACY</p>
 <img src="Screenshot 2024-01-09 203000.png" alt="Accuracy">
 <p>LOSS</p>
-<img src=""  alt="Loss">
+<img src="Screenshot 2024-01-09 203030.png"  alt="Loss">
