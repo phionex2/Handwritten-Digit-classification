@@ -6,7 +6,6 @@ This project focuses on building a neural network model to classify handwritten 
 
 ---
 
-
 ## 📊 **Dataset**
 
 
