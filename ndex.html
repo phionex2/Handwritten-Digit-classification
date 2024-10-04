@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNIST Digit Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Handwritten Digit Classification</h1>
+        
+        <div class="input-section">
+            <h2>Draw Your Digit Below</h2>
+            <canvas id="digitCanvas" width="280" height="280"></canvas>
+            <button id="clearBtn">Clear Canvas</button>
+            <button id="predictBtn">Predict Digit</button>
+        </div>
+
+        <div class="output-section">
+            <h2>Prediction Output</h2>
+            <p id="predictionResult">Your digit is: <span id="digitOutput"></span></p>
+        </div>
+
+        <div class="accuracy-section">
+            <h2>Model Training Accuracy</h2>
+            <canvas id="accuracyChart"></canvas>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
